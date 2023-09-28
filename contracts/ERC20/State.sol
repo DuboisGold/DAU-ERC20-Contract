@@ -45,7 +45,9 @@ contract CATERC20Storage {
         uint256 mintedSupply;
         // Mapping for storing used signatures
         mapping(bytes => bool) signaturesUsed;
+        uint256[49] __gap;
     }
+
 }
 
 contract CATERC20State {
