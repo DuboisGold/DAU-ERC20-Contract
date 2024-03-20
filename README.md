@@ -43,7 +43,7 @@ The simple model for pausing transfers following OpenZeppelin's
 
 ### Fees
 
-DAU charges a set fee rate for all on-chain transfers of DAU ERC20 in order to offset storage fees of gold bars in our vaults.
+DAU charges a set fee rate for all on-chain transfers of DAU ERC20.
 The fee controller has the ability to set the fee accumulator and the fee rate (measured in 1/100th of a basis point).
 DAU will never change the fee rate without prior notice as we take transparency very seriously.
 
